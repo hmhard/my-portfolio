@@ -1,4 +1,5 @@
 import { Typography, Button } from "@material-tailwind/react";
+import { personal_info } from "../data/general_data";
  
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <div className="relative h-full w-full">
         <img
           src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-          alt="image 1"
+          alt="Just Random"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
@@ -17,15 +18,14 @@ export default function Home() {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              Miniyahil Kebede
+              {personal_info.fullName}
             </Typography>
             <Typography
               variant="lead"
               color="white"
               className="mb-8 opacity-80"
             >
-                Experienced Software Engineer from Ethiopia
-                with 4+ years of experience
+               {personal_info.subtitle}
             </Typography>
             <div className="flex justify-center gap-2">
               <Button size="lg" color="white">

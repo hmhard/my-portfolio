@@ -12,40 +12,12 @@ import {
 } from "@material-tailwind/react";
 import HeaderText from "./HeaderText";
 import DegreeCard from "./degreeCard/DegreeCard";
+import { educational_data } from "../data/educational_data";
+import { blueTheme } from "../theme/blueTheme";
 
 export default function Education() {
-    const blueTheme = {
-        body: "#EDF9FE",
-        text: "#001C55",
-        expTxtColor: "#000a12",
-        highlight: "#A6E1FA",
-        dark: "#00072D",
-        secondaryText: "#7F8DAA",
-        imageHighlight: "#0E6BA8",
-        compImgHighlight: "#E6E6E6",
-        jacketColor: "#0A2472",
-        headerColor: "#0E6BA877",
-        splashBg: "#001C55",
-      };
-    const degrees = {
-        degrees: [
-          {
-            title: "Jimma University",
-            subtitle: "BSc. in Computer Science",
-            logo_path: "/media/ju-logo.png",
-            alt_name: "Jimma University",
-            duration: "2015 - 2019",
-            descriptions: [
-              "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-              "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-              "⚡ Top Scorer with 3.82/4",
-            ],
-            website_link: "http://www.ju.edu.et",
-          }
-         
-        ],
-      };
-      
+  
+   
     return (
         <Card className="rounded-xl ml-4 mt-10"
         >
@@ -54,7 +26,7 @@ export default function Education() {
 
                 <div className="w-full h-full">
                     <Timeline>
-                        {degrees.degrees.map((item, index) =>
+                        {educational_data.degrees.map((item, index) =>
                             <TimelineItem>
                                 <TimelineConnector />
                                 <TimelineHeader>
