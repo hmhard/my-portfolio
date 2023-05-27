@@ -85,6 +85,7 @@ function App() {
               variant="gradient"
               size="sm"
               className="hidden lg:inline-block"
+              onClick={()=>window.open("https://github.com/hmhard", "_blank")}
             >
               <span>Github</span>
             </Button>
