@@ -14,11 +14,17 @@ export default function Home() {
         <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
           <div className="w-3/4 text-center md:w-2/4">
             <Typography
-              variant="h1"
+              variant="h2"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-2xl md:text-3xl lg:text-4xl"
             >
               {personal_info.fullName}
+            </Typography>
+             <Typography
+              variant="p"
+              color="white"
+            >
+              ({personal_info.email})
             </Typography>
             <Typography
               variant="lead"
