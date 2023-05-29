@@ -4,14 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from "@material-tailwind/react";
- 
+import "./assests/font-awesome/css/all.css"; 
+import { blueTheme } from './theme/blueTheme';
+import { GlobalStyles } from './global';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
+    <ThemeProvider value={blueTheme}>
+    <GlobalStyles />
       <App />
     </ThemeProvider>
   </React.StrictMode>

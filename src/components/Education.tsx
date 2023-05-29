@@ -19,32 +19,21 @@ export default function Education() {
   
    
     return (
-        <Card className="rounded-xl ml-4 mt-10"
-        >
-            <CardBody>
+            <div>
                 <HeaderText text="Education" />
 
                 <div className="w-full h-full">
-                    <Timeline>
+                    <div>
                         {educational_data.degrees.map((item, index) =>
-                            <TimelineItem>
-                                <TimelineConnector />
-                                <TimelineHeader>
-                                    <TimelineIcon className="p-0">
-                                        <Avatar size="sm" src="/media/ju-logo.png" alt="user 1" withBorder />
-                                    </TimelineIcon>
-                                    <Typography variant="h5" color="blue-gray">
-                                        {item.title}
-                                    </Typography>
-                                </TimelineHeader>
-                                <TimelineBody className="pb-8">
+                            <div>     
+                                <div >
                                    <DegreeCard degree={item} theme={blueTheme} />
-                                </TimelineBody>
-                            </TimelineItem>)}
+                                </div>
+                            </div>)}
 
-                    </Timeline>
+                    </div>
                 </div>
-            </CardBody>
-        </Card>
+            </div>
+       
     );
 }

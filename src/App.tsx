@@ -5,6 +5,7 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import Navigation from './components/Nativagion';
 import ContactMe from './components/ContactMe';
+import Experience from './components/Experience';
 
 function App() {
   
@@ -13,14 +14,8 @@ function App() {
    <Navigation />
       <Home/>
       <Education/>
+      <Experience/>
       <ContactMe/>
-    <Card>
-      <CardBody>
-       <Typography>
-     Under Construction
-      </Typography>
-      </CardBody>
-    </Card>
     <Footer/>
     </>
   );

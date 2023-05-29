@@ -6,10 +6,11 @@ import {
     Button,
 } from "@material-tailwind/react";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
+import { blueTheme } from "../theme/blueTheme";
 
 export default function ContactMe() {
     return (
-        <Card className="flex-row w-full ml-5">
+        <Card className="flex-row w-full " style={{ backgroundColor:blueTheme.body }}>
             <CardHeader shadow={false} floated={false} className="w-2/6 shrink-0 m-0 rounded-r-none">
                 <img
                 className="h-96 w-96 rounded-lg"
@@ -26,12 +27,18 @@ export default function ContactMe() {
                 </Typography>
                 <Typography color="gray" className="font-normal mb-8">
                 
-                I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.
+                I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack development, React, Spring Boot, Android, Website.
                 </Typography>
                
                     <div>
                         <Typography variant="small" color="gray" className="font-normal">
-                            miniye6453@gmail.com
+                            <b>Gmail: </b>miniye6453@gmail.com
+                        </Typography>
+                        <Typography variant="small" color="gray" className="font-normal">
+                            <b>Pnone: </b>+251946553371
+                        </Typography>
+                         <Typography variant="small" color="gray" className="font-normal">
+                            <b>Github: </b> <a href="gitgub.com/hmhard" className="inline-block">hmhard</a>
                         </Typography>
                     </div>
                 

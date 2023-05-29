@@ -1,6 +1,6 @@
 import React, {  } from "react";
 import "./DegreeCard.css";
-import { Bounce, Fade } from "react-awesome-reveal";
+import {  Fade, Flip } from "react-awesome-reveal";
 
 interface Props{
   degree:any;
@@ -10,25 +10,11 @@ export default function DegreeCard ({degree, theme}:Props) {
   
     return (
       <div className="degree-card">
-        {degree.logo_path && (
-          <Bounce  duration={1500}>
-            <div className="">
-              <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(1.0)",
-                }}
-                src={`${degree.logo_path}`}
-                alt={degree.alt_name}
-              />
-            </div>
-          </Bounce>
-        )}
-        <Fade  duration={2000} className="medium">
+        
+        <Fade  duration={2000} className="large">
           <div
             className="card-body"
-            style={{ width: degree.logo_path ? "90%" : "100%" }}
+            style={{ width: degree.logo_path ? "80%" : "80%" }}
           >
             <div
               className="body-header"
