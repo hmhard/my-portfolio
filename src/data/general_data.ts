@@ -1,7 +1,8 @@
 export const personal_info={
     fullName:'Miniyahil Kebede Loha',
     subtitle:' Experienced Software Engineer from Ethiopia with 4+ years of experience',
-    email:'miniye6453@gmail.com'
+    email:'miniye6453@gmail.com',
+    phone:'+251946553371'
 }
 
 export const links={

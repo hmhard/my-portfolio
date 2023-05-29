@@ -11,7 +11,6 @@ export const GlobalStyles = createGlobalStyle`
     align-items: center;
     background: #EDF9FE;
     color: #001C55;
-    max-width: 90%;
     display: flex;
     // flex-direction: column;
     // justify-content: center;

@@ -6,21 +6,21 @@ export default function Home() {
     return (
         <Card className="rounded-xl" style={{ backgroundColor:blueTheme.body }}>
             <CardBody>
-                <Typography
-                >
+                <Typography  className='text-4xl' color='black'>
                     {personal_info.fullName}
                 </Typography>
-                <div>
-                <Typography variant="span">
-                    <span>Email:</span>{personal_info.email}
-                </Typography>
-                 <Typography variant="span">
-                    <span>Phone:</span>{personal_info.email}
-                </Typography>
-                </div>
                 <Typography>
                     {personal_info.subtitle}
                 </Typography>
+                <div>
+                <Typography variant="span">
+                    <Typography  className='inline' color="blue">Email: </Typography>{personal_info.email}
+                </Typography>
+                 <Typography variant="span">
+                    <Typography className='inline' color="blue">Phone: </Typography>{personal_info.phone}
+                </Typography>
+                </div>
+               
             </CardBody>
 
         </Card>
