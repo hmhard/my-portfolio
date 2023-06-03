@@ -4,6 +4,7 @@ import {
     CardBody,
     Typography,
     Button,
+    Chip,
   } from "@material-tailwind/react";
   import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { ProjectProps } from "../../shared/types";
@@ -30,9 +31,17 @@ interface Props{
            <Typography variant="h6" color="blue" className="mb-2">
             {project.company}
           </Typography>
-          <Typography color="gray" className="font-normal mb-8">
+          <Typography color="gray" className="font-normal mb-3">
          {project.description}
           </Typography>
+          
+        <div className="block mb-3">
+          {project.technologies?.map((tech,index)=>
+          <Chip className="inline" key={index} variant="outlined" value={tech} />
+          
+          )}
+          </div>  
+        
           <a href={project.link} className="inline-block">
             <Button variant="text" className="flex items-center gap-2">
               Explore more
