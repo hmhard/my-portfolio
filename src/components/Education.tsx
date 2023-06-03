@@ -8,7 +8,7 @@ export default function Education() {
   
    
     return (
-            <div style={{height:'95vh'}}>
+            <div id="education" style={{height:'95vh'}}>
                 <HeaderText text="Education" />
 
                 <div className="w-full h-full">

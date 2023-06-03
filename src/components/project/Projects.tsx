@@ -7,7 +7,7 @@ export default function Projects() {
   
    
     return (
-            <div  style={{minHeight:'95vh', margin:20}}>
+            <div id="projects"  style={{minHeight:'95vh', margin:20}}>
                 <HeaderText text="Projects" />
 
                 <div className="w-full h-full grid grid-cols-2 gap-4">

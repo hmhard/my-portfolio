@@ -7,9 +7,12 @@ import {
 } from "@material-tailwind/react";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { blueTheme } from "../theme/blueTheme";
+import HeaderText from "./HeaderText";
 
 export default function ContactMe() {
     return (
+        <div id="contactme" style={{minHeight:'95vh'}}>
+   <HeaderText text="Contact me"/>
         <Card className="flex-row w-full " style={{ backgroundColor:blueTheme.body,height:'95vh', marginLeft:20 }}>
             <CardHeader shadow={false} floated={false} className="w-2/6 shrink-0 m-0 rounded-r-none" style={{backgroundColor:blueTheme.body,}}>
                 <img
@@ -50,5 +53,7 @@ export default function ContactMe() {
                 </a>
             </CardBody>
         </Card>
+        </div>
+
     );
 }

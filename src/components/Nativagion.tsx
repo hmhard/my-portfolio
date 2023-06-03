@@ -20,7 +20,7 @@ export default function Navigation() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
+          <a href="#home" className="flex items-center">
             Home
           </a>
         </Typography>
@@ -30,7 +30,7 @@ export default function Navigation() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
+          <a href="#education" className="flex items-center">
             Education
           </a>
         </Typography>
@@ -40,7 +40,7 @@ export default function Navigation() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
+          <a href="#experience" className="flex items-center">
             Experience
           </a>
         </Typography>
@@ -50,7 +50,7 @@ export default function Navigation() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
+          <a href="#projects" className="flex items-center">
             Projects
           </a>
         </Typography>
@@ -60,7 +60,7 @@ export default function Navigation() {
           color="blue-gray"
           className="p-1 font-normal"
         >
-          <a href="#" className="flex items-center">
+          <a href="#contactme" className="flex items-center">
             Open Source
           </a>
         </Typography>

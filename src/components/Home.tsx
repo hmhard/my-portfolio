@@ -5,7 +5,7 @@ import './Main.css'
 
 export default function Home() {
     return (
-        <div className="h-full" style={{height:'95vh'}}>
+        <div className="h-full" id="home" style={{height:'95vh'}}>
         <Card className="rounded-xl h-full w-full" style={{ backgroundColor:blueTheme.body }}>
             <CardBody>
                 <Typography  className='text-4xl mt-5'>

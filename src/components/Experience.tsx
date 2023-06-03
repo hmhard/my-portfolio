@@ -5,7 +5,7 @@ import HeaderText from "./HeaderText";
 
 export default function Experience() {
     return (
-       <div style={{minHeight:'95vh'}}>
+       <div id="experience" style={{minHeight:'95vh'}}>
         <HeaderText text="Experience"/>
       <div style={{width:'95%', marginLeft:'5px'}}>
             {experience_data.sections.map((section, ind) => (

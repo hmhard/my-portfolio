@@ -20,7 +20,7 @@ interface Props{
             <img 
             src={project.image_url}
             alt={project.name} 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover shadow-xl shadow-blue-gray-900/50"
           />
            </a>
         </CardHeader>
