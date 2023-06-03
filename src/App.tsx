@@ -8,16 +8,16 @@ import Experience from './components/Experience';
 import Projects from './components/project/Projects';
 
 function App() {
-  
+
   return (
     <>
-   <Navigation />
-      <Home/>
-      <Education/>
-      <Experience/>
-      <Projects/>
-      <ContactMe/>
-    <Footer/>
+      <Navigation />
+      <Home />
+      <Education />
+      <Experience />
+      <Projects />
+      <ContactMe />
+      <Footer />
     </>
   );
 }

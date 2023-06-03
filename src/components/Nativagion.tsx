@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Typography, Button, IconButton, MobileNav, Collapse } from "@material-tailwind/react";
+import { Navbar, Typography, Button, IconButton, MobileNav } from "@material-tailwind/react";
 import { personal_info } from "../data/general_data";
 
 export default function Navigation() {
@@ -124,12 +124,12 @@ export default function Navigation() {
                 </IconButton>
             </div>
         </div>
-        <Collapse open={openNav}>
+        <MobileNav open={openNav}>
             {navList}
             <Button variant="gradient" size="sm" fullWidth className="mb-2"   onClick={() => window.open("https://github.com/hmhard", "_blank")}>
                 Github
             </Button>
-        </Collapse>
+        </MobileNav>
     </Navbar>
     )
 };

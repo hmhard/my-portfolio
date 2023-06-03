@@ -9,7 +9,7 @@ export default function Home() {
         <Card className="rounded-xl h-full w-full" style={{ backgroundColor:blueTheme.body }}>
             <CardBody>
                 <Typography  className='text-4xl mt-5'>
-                    Hello<span>👋</span>
+                    Hello<span className="ml-4">👋</span>
                 </Typography>
                 <Typography>
                     {/* {personal_info.subtitle} */}
