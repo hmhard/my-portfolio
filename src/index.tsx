@@ -7,6 +7,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 // import "./assests/font-awesome/css/all.css"; 
 import { blueTheme } from './theme/blueTheme';
 import { GlobalStyles } from './global';
+import { Analytics } from '@vercel/analytics/react';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,6 +17,7 @@ root.render(
     <ThemeProvider value={blueTheme}>
     <GlobalStyles />
       <App />
+      <Analytics />
     </ThemeProvider>
   </React.StrictMode>
 );
