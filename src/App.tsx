@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, CardBody, Typography } from "@material-tailwind/react";
 import Home from './components/Home';
 import Education from './components/Education';
 import Footer from './components/Footer';

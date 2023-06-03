@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from "@material-tailwind/react";
-import "./assests/font-awesome/css/all.css"; 
+// import "./assests/font-awesome/css/all.css"; 
 import { blueTheme } from './theme/blueTheme';
 import { GlobalStyles } from './global';
 
