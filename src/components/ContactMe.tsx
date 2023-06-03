@@ -10,8 +10,8 @@ import { blueTheme } from "../theme/blueTheme";
 
 export default function ContactMe() {
     return (
-        <Card className="flex-row w-full " style={{ backgroundColor:blueTheme.body }}>
-            <CardHeader shadow={false} floated={false} className="w-2/6 shrink-0 m-0 rounded-r-none">
+        <Card className="flex-row w-full " style={{ backgroundColor:blueTheme.body,height:'95vh', marginLeft:20 }}>
+            <CardHeader shadow={false} floated={false} className="w-2/6 shrink-0 m-0 rounded-r-none" style={{backgroundColor:blueTheme.body,}}>
                 <img
                 className="h-96 w-96 rounded-lg"
                     src="/media/mine2.jpg"

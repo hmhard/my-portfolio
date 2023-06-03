@@ -1,15 +1,4 @@
-import {
-    Timeline,
-    TimelineItem,
-    TimelineConnector,
-    TimelineHeader,
-    TimelineIcon,
-    TimelineBody,
-    Typography,
-    Avatar,
-    Card,
-    CardBody,
-} from "@material-tailwind/react";
+
 import HeaderText from "./HeaderText";
 import DegreeCard from "./degreeCard/DegreeCard";
 import { educational_data } from "../data/educational_data";
@@ -19,7 +8,7 @@ export default function Education() {
   
    
     return (
-            <div>
+            <div style={{height:'95vh'}}>
                 <HeaderText text="Education" />
 
                 <div className="w-full h-full">

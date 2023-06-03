@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Nativagion';
 import ContactMe from './components/ContactMe';
 import Experience from './components/Experience';
+import Projects from './components/project/Projects';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Home/>
       <Education/>
       <Experience/>
+      <Projects/>
       <ContactMe/>
     <Footer/>
     </>
