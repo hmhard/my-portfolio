@@ -10,7 +10,7 @@ export default function Projects() {
             <div id="projects"  style={{minHeight:'95vh', margin:20}}>
                 <HeaderText text="Projects" />
 
-                <div className="w-full h-full grid grid-cols-2 gap-4">
+                <div className="w-full h-full grid grid-cols-3 gap-4">
                  {project_data.map((project,index)=>
                      <ProjectCard key={index} project={project}/>
                  )}

@@ -14,17 +14,20 @@ interface Props{
 }
   export default function ProjectCard({project}:Props) {
     return (
-      <Card className="flex-row  max-w-[48rem]" style={{background:blueTheme.body}}>
-        <CardHeader shadow={false} floated={false} className="w-2/5 shrink-0 m-0 rounded-r-none">
+      <Card className="w-full  shadow-lg" style={{background:blueTheme.body}}>
+        <CardHeader shadow={false} floated={false} className="">
           <a href={project.link}>
             <img 
             src={project.image_url}
-            alt={project.name} 
-            className="w-full h-full object-cover shadow-xl shadow-blue-gray-900/50"
+            alt={project.name}
+            style={{maxHeight:200, minHeight:200}} 
+            className="w-full  object-cover shadow-xl shadow-blue-gray-900/50"
           />
            </a>
         </CardHeader>
         <CardBody>
+        <div className="mb-3  items-center justify-between">
+     
           <Typography variant="h4" color="blue-gray" className="mb-2">
             {project.name}
           </Typography>
@@ -48,6 +51,7 @@ interface Props{
               <ArrowLongRightIcon strokeWidth={2} className="w-4 h-4" />
             </Button>
           </a>
+          </div>
         </CardBody>
       </Card>
     );
