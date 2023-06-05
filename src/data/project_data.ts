@@ -55,8 +55,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://gcs.ju.edu.et/",
     technologies: ["React", "Django", "Mysql"],
     company: "Jimma University",
-    image_url:
-      "/media/gate.png",
+    image_url: "/media/gate.png",
   },
   {
     name: "Student Portal",
