@@ -8,6 +8,7 @@ import {
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { blueTheme } from "../theme/blueTheme";
 import HeaderText from "./HeaderText";
+import { personal_info } from "../data/general_data";
 
 export default function ContactMe() {
     return (
@@ -45,7 +46,7 @@ export default function ContactMe() {
                         </Typography>
                     </div>
                 
-                <a href="#" className="inline-block">
+                <a href={personal_info.resume_link} target="_blank" className="inline-block">
                     <Button variant="text" className="flex items-center gap-2">
                         View My Resume
                         <ArrowLongRightIcon strokeWidth={2} className="w-4 h-4" />
