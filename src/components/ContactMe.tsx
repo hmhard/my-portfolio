@@ -9,12 +9,13 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { blueTheme } from "../theme/blueTheme";
 import HeaderText from "./HeaderText";
 import { personal_info } from "../data/general_data";
+import { Fade } from "react-awesome-reveal";
 
 export default function ContactMe() {
     return (
         <div id="contactme" style={{ backgroundColor: blueTheme.body, minHeight: '95vh', marginLeft: 20 }}>
             <HeaderText text="Contact me" />
-            <Card className="flex-row w-full shadow-none"  style={{ backgroundColor: blueTheme.body }}>
+            <Card className="flex-row w-full shadow-none" style={{ backgroundColor: blueTheme.body }}>
                 <CardHeader shadow={false} floated={false} className="w-2/6 shrink-0 m-0 rounded-r-none" style={{ backgroundColor: blueTheme.body, }}>
                     <img
                         className="h-96 w-96 rounded-lg"
@@ -55,25 +56,28 @@ export default function ContactMe() {
 
                 </CardBody>
             </Card>
-            <Card style={{ backgroundColor: blueTheme.body }}>
-            <CardBody>
-            <Typography>
-                <Typography variant="h6" color="blue" className="uppercase mb-4">About me:</Typography>
+            <Fade duration={2000}>
+                <Card style={{ backgroundColor: blueTheme.body }}>
+                    <CardBody>
+                        <Typography>
+                            <Typography variant="h6" color="blue" className="uppercase mb-4">About me:</Typography>
+                            <Typography variant="p" style={{ fontSize: 20, fontFamily:'Montserrat', lineHeight: '1.8em', fontStyle: 'italic' }}>
+                                Experienced software developer with a passion for developing innovative
+                                programs that expedite the efficiency and
+                                effectiveness of organizational success. Well-versed in technology and
 
-                Experienced software developer with a passion for developing innovative
-                programs that expedite the efficiency and
-                effectiveness of organizational success. Well-versed in technology and
+                                developing systems that are reliable and user-
+                                friendly. Focused, quick-learning, and innovative optimized solution seeker.
 
-                developing systems that are reliable and user-
-                friendly. Focused, quick-learning, and innovative optimized solution seeker.
-
-                Confident communicator, strategic thinker, analytical thinking, collaboration
-                skills, and innovative creator to develop software that is customized to meet a
-                company’s organizational needs, highlight its core competencies, and further
-                its success.
-            </Typography>
-            </CardBody>
-            </Card>
+                                Confident communicator, strategic thinker, analytical thinking, collaboration
+                                skills, and innovative creator to develop software that is customized to meet a
+                                company’s organizational needs, highlight its core competencies, and further
+                                its success.
+                            </Typography>
+                        </Typography>
+                    </CardBody>
+                </Card>
+            </Fade>
         </div>
 
     );

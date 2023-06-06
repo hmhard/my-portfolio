@@ -14,10 +14,10 @@ export default function Home() {
                     <Typography>
                         {/* {personal_info.subtitle} */}
                     </Typography>
-                    <div style={{ maxWidth: 700, fontSize: '34px', paddingTop: 30, paddingBottom: 30 }}>
+                    <div style={{ maxWidth: '55%', fontSize: '2.5rem', paddingTop: 30, paddingBottom: 30 }}>
 
-                        <div className="typewriter">I'm {personal_info.fullName},</div>
-                        <div>{personal_info.subtitle} </div>
+                        <div className="typewriter">I'm <b>{personal_info.fullName}</b>,</div>
+                        <div style={{lineHeight:'1.6em'}}>{personal_info.subtitle} </div>
                     </div>
                 </CardBody>
                 <div style={{ paddingLeft: 20, fontSize: '24px' }}>Get in touch: <a style={{ textDecoration: 'underline' }} href='mailto:miniye6453@gmail.com' target="_blank">{personal_info.email}</a></div>

@@ -15,7 +15,7 @@ interface Props {
 }
 export default function ProjectCard({ project }: Props) {
   return (
-    <Fade>
+    <Fade duration={2000}>
       <Card className="w-full  shadow-lg" style={{ background: blueTheme.body }}>
         <CardHeader shadow={false} floated={false} className="">
           <a href={project.link}>
@@ -42,7 +42,7 @@ export default function ProjectCard({ project }: Props) {
 
             <div className="block mb-3">
               {project.technologies?.map((tech, index) =>
-                <Chip className="inline" key={index} variant="outlined" value={tech} />
+                <Chip className="inline mr-2" key={index} variant="outlined" value={tech} />
 
               )}
             </div>

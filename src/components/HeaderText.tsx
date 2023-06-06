@@ -7,7 +7,7 @@ interface Props{
 
 export default function  HeaderText ({text}:Props){
     return   <Fade  duration={2000} >
-    <h1 className="organizations-header" style={{ color: blueTheme.text }}>
+    <h1 className="organizations-header"  style={{ color: blueTheme.text, padding:20 }}>
       {text}
     </h1>
   </Fade>
