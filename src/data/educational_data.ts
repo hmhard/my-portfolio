@@ -3,7 +3,7 @@ export const educational_data = {
       {
         title: "Jimma University",
         subtitle: "BSc. in Computer Science",
-        logo_path: "/media/ju-logo.png",
+        logo_path: "/images/ju-logo.png",
         alt_name: "Jimma University",
         duration: "2015 - 2019",
         descriptions: [

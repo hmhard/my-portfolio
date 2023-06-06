@@ -19,7 +19,7 @@ export default function ContactMe() {
                 <CardHeader shadow={false} floated={false} className="w-2/6 shrink-0 m-0 rounded-r-none" style={{ backgroundColor: blueTheme.body, }}>
                     <img
                         className="h-96 w-96 rounded-lg"
-                        src="/media/mine2.jpg"
+                        src="/images/mine2.jpg"
                         alt="miniyahil kebede"
                         width={'100%'}
                         height={'auto'}
@@ -61,7 +61,7 @@ export default function ContactMe() {
                     <CardBody>
                         <Typography>
                             <Typography variant="h6" color="blue" className="uppercase mb-4">About me:</Typography>
-                            <Typography variant="p" style={{ fontSize: 20, fontFamily:'Montserrat', lineHeight: '1.8em', fontStyle: 'italic' }}>
+                            <Typography variant="p" style={{  fontStyle: 'italic' }}>
                                 Experienced software developer with a passion for developing innovative
                                 programs that expedite the efficiency and
                                 effectiveness of organizational success. Well-versed in technology and
