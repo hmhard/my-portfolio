@@ -6,6 +6,7 @@ import Navigation from './components/Nativagion';
 import ContactMe from './components/ContactMe';
 import Experience from './components/Experience';
 import Projects from './components/project/Projects';
+import Organizations from './components/organizations/Organizations';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Education />
       <Experience />
       <Projects />
+      <Organizations />
       <ContactMe />
       <Footer />
     </>
