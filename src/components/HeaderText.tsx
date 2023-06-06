@@ -1,4 +1,3 @@
-import { Typography } from "@material-tailwind/react"
 import { Fade } from "react-awesome-reveal";
 import { blueTheme } from "../theme/blueTheme";
 interface Props{
