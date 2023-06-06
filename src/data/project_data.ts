@@ -8,7 +8,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://saps.ethernet.edu.et/",
     company: "Ministry of education",
     technologies: ["React", "NextJs", "Spring Boot", "Python"],
-    image_url: "/media/saps.png",
+    image_url: "/images/saps.png",
   },
   {
     name: "One card system",
@@ -17,7 +17,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://www.sis.ju.edu.et",
     company: "Jimma University",
     technologies: ["React", "Laravel", "Mysql"],
-    image_url: "/media/sis.png",
+    image_url: "/images/sis.png",
   },
  
   {
@@ -27,7 +27,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://datahub.moa.gov.et/",
     company: "Ministry of Agriculture",
     technologies: ["NestJs", "NextJs", "ArrangoDB", "Jenkins"],
-    image_url: "/media/ag-datahub-home.png",
+    image_url: "/images/ag-datahub-home.png",
   },
   {
     name: "Budget Tool System",
@@ -46,7 +46,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://research.ju.edu.et/",
     company: "Jimma University",
     technologies: ["React", "Laravel", "Mysql"],
-    image_url: "/media/research.png",
+    image_url: "/images/research.png",
   },
   {
     name: "Gate Control System",
@@ -55,7 +55,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://gcs.ju.edu.et/",
     technologies: ["React", "Django", "Mysql"],
     company: "Jimma University",
-    image_url: "/media/gate.png",
+    image_url: "/images/gate.png",
   },
   {
     name: "Student Portal",
@@ -64,7 +64,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://portal.ethernet.edu.et/",
     technologies: ["React", "Spring Boot", "Mysql"],
     company: "Ministry of Education",
-    image_url: "/media/student-portal.jpg",
+    image_url: "/images/student-portal.jpg",
   },
   {
     name: "Wolaita Bible",
@@ -83,7 +83,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://telement.ju.edu.et/",
     technologies: ["Android", "SMS", "Java", "Firebase"],
     company: "Oromia region Health Beurue",
-    image_url: "/media/telemedicine.png",
+    image_url: "/images/telemedicine.png",
   },
   {
     name: "Ethiopian Universities App",
@@ -92,6 +92,6 @@ export const project_data: Array<ProjectProps> = [
     link: "https://github.com/hmhard/ethiopian-universities-info",
     technologies: ["Flutter", "Dart", "Google Map", "Appwrite"],
     company: "Open source",
-    image_url: "/media/ethio.jpg",
+    image_url: "/images/ethio.jpg",
   },
 ];
