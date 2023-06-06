@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: Props) {
         <CardHeader shadow={false} floated={false} className="">
           <a href={project.link}>
             <img
-              src={require(`../../assets/images${project.image_url}`)}
+              src={`${project.image_url}`}
               alt={project.name}
               style={{ maxHeight: 200, minHeight: 200 }}
               className="w-full  object-cover shadow-xl shadow-blue-gray-900/50"
