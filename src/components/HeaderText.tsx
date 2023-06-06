@@ -1,14 +1,15 @@
 import { Typography } from "@material-tailwind/react"
+import { Fade } from "react-awesome-reveal";
+import { blueTheme } from "../theme/blueTheme";
 interface Props{
     text: string;
 
 }
 
 export default function  HeaderText ({text}:Props){
-    return  <Typography
-    color="blue-gray"
-      className="my-5 mx-5  text-1xl md:text-2xl lg:text-3xl"
-    >
+    return   <Fade  duration={2000} >
+    <h1 className="organizations-header" style={{ color: blueTheme.text }}>
       {text}
-    </Typography>
+    </h1>
+  </Fade>
 }
