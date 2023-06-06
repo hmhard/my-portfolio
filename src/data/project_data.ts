@@ -8,7 +8,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://saps.ethernet.edu.et/",
     company: "Ministry of education",
     technologies: ["React", "NextJs", "Spring Boot", "Python"],
-    image_url: "/images/saps.png",
+    image_url: "/images/saps.jpg",
   },
   {
     name: "One card system",
@@ -17,7 +17,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://www.sis.ju.edu.et",
     company: "Jimma University",
     technologies: ["React", "Laravel", "Mysql"],
-    image_url: "/images/sis.png",
+    image_url: "/images/sis.jpg",
   },
  
   {
@@ -27,7 +27,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://datahub.moa.gov.et/",
     company: "Ministry of Agriculture",
     technologies: ["NestJs", "NextJs", "ArrangoDB", "Jenkins"],
-    image_url: "/images/ag-datahub-home.png",
+    image_url: "/images/ag-datahub-home.jpg",
   },
   {
     name: "Budget Tool System",
@@ -46,7 +46,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://research.ju.edu.et/",
     company: "Jimma University",
     technologies: ["React", "Laravel", "Mysql"],
-    image_url: "/images/research.png",
+    image_url: "/images/research.jpg",
   },
   {
     name: "Gate Control System",
@@ -55,7 +55,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://gcs.ju.edu.et/",
     technologies: ["React", "Django", "Mysql"],
     company: "Jimma University",
-    image_url: "/images/gate.png",
+    image_url: "/images/gate.jpg",
   },
   {
     name: "Student Portal",
@@ -83,7 +83,7 @@ export const project_data: Array<ProjectProps> = [
     link: "https://telement.ju.edu.et/",
     technologies: ["Android", "SMS", "Java", "Firebase"],
     company: "Oromia region Health Beurue",
-    image_url: "/images/telemedicine.png",
+    image_url: "/images/telemedicine.jpg",
   },
   {
     name: "Ethiopian Universities App",
