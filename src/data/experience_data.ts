@@ -59,18 +59,6 @@ export const experience_data = {
       {
         title: "Volunteerships",
         experiences: [
-          {
-            title: "Bible App Developer",
-            company: "Wolaita Bible",
-            company_url: "https://woalta.bible.com/",
-            logo_path: "google_logo.png",
-            duration: "Mar 2019 - July 2019",
-            location: "Wolaita, Ethiopia",
-            description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa ex obcaecati repellendus mollitia optio suscipit id eveniet inventore itaque qui a maxime nobis minus provident laudantium ullam doloribus, voluptatibus quis?", 
-            color: "#4285F4",
-          },
-         
         ],
       },
     ],

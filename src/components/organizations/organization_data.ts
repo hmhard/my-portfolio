@@ -52,11 +52,6 @@ export const organizational_data_local = [
     __typename: "Organization",
   },
   {
-    login: "Ethiopian Public Health",
-    avatarUrl: "https://iphce.org/wp-content/uploads/2021/04/EPHI.jpeg",
-    __typename: "Organization",
-  },
-  {
     login: "acatech-ethio",
     avatarUrl: "https://acatechte.com/wp-content/uploads/2023/03/logo.png",
     __typename: "Organization",

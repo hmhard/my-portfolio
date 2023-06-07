@@ -67,16 +67,6 @@ export const project_data: Array<ProjectProps> = [
     image_url: "/images/student-portal.jpg",
   },
   {
-    name: "Wolaita Bible",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia totam, autem tenetur saepe eum quaerat, repudiandae alias esse nulla animi ullam vero ipsam molestias consequuntur. Molestiae nemo vitae natus! Quis?",
-    link: "https://bible.wolaita",
-    technologies: ["Flutter", "Sqlite", "Firebase"],
-    company: "Wolaita people",
-    image_url:
-      "https://cdn-icons-png.flaticon.com/512/5433/5433756.png?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-  },
-  {
     name: "Telemedicine",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia totam, autem tenetur saepe eum quaerat, repudiandae alias esse nulla animi ullam vero ipsam molestias consequuntur. Molestiae nemo vitae natus! Quis?",
